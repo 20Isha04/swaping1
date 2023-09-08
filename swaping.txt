@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Entre 2 value : ");
+    scanf("%d%d",&a,&b); \\value from user
+    printf("Before swap a = %d and b = %d \n",a,b);
+    c = a; \\value of a is assign to c 
+    a = b; \\value of b is assign to a
+    b = c; \\value of c is assign to b
+    printf("After swap a= %d and b = %d",a,b);
+
+    return 0 ;
+
+}
